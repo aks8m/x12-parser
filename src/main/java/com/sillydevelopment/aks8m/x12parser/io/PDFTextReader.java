@@ -7,6 +7,8 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by aks8m on 2/14/17.
@@ -20,11 +22,11 @@ public class PDFTextReader {
         this.x12filePath = x12filePath;
     }
 
-    public String[] readPDFTextData(){
+    public ArrayList<String> readPDFTextData(){
         PDFParser pdfParser;
         PDDocument pdDocument;
         PDFTextStripper pdfTextStripper;
-        String[] textData = null;
+        ArrayList<String> textData = null;
 
         try {
             pdfParser = new PDFParser(new RandomAccessFile(new File(this.x12filePath), "r"));
@@ -33,8 +35,7 @@ public class PDFTextReader {
             pdDocument = new PDDocument(pdfParser.getDocument());
             pdfTextStripper = new PDFTextStripper();
             pdfTextStripper.setEndPage(pdDocument.getNumberOfPages());
-
-            textData = pdfTextStripper.getText(pdDocument).split(splitRegex);
+            textData = new ArrayList<String>(Arrays.asList(pdfTextStripper.getText(pdDocument).split(splitRegex)));
         }catch (IOException ioE) {
             ioE.printStackTrace();
         }

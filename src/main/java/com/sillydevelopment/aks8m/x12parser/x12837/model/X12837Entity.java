@@ -1,36 +1,24 @@
 package com.sillydevelopment.aks8m.x12parser.x12837.model;
 
+import java.util.ArrayList;
+import java.util.List;
 
 /**
- * Created by aks8m on 2/7/17.
+ * Created by aks8m on 2/16/17.
  */
 public class X12837Entity {
 
-    private Location location;
-    private Action action;
-    private CR cr;
+    private List<String> rawTextData;
 
-    public Location getLocation() {
-        return location;
+    public X12837Entity(List<String> rawTextData) {
+        this.rawTextData = rawTextData;
     }
 
-    public void setLocation(Location location) {
-        this.location = location;
+    public List<String> getRawTextData() {
+        return rawTextData;
     }
 
-    public Action getAction() {
-        return action;
-    }
-
-    public void setAction(Action action) {
-        this.action = action;
-    }
-
-    public CR getCr() {
-        return cr;
-    }
-
-    public void setCr(CR cr) {
-        this.cr = cr;
+    public void setRawTextData(List<String> rawTextData) {
+        this.rawTextData = rawTextData;
     }
 }
