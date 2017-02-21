@@ -1,22 +1,21 @@
 package com.sillydevelopment.aks8m.x12parser.x12837;
 
 import com.sillydevelopment.aks8m.x12parser.io.PDFTextReader;
-import com.sillydevelopment.aks8m.x12parser.factory.Parser;
 
 import java.util.ArrayList;
 
 /**
  * Created by aks8m on 2/7/17.
  */
-public class X12837Parser implements Parser {
+public class Parser implements com.sillydevelopment.aks8m.x12parser.factory.Parser {
 
     private PDFTextReader pdfTextReader;
     private ArrayList<String> parsedDataStringArray;
     private String x12SourcePDFLocation;
     private String excelOutputLocation;
-    private X12837Analyzer x12837Analyzer;
+    private Analyzer analyzer;
 
-    public X12837Parser(String x12SourcePDFLocation, String excelOutputLocation) {
+    public Parser(String x12SourcePDFLocation, String excelOutputLocation) {
         this.x12SourcePDFLocation = x12SourcePDFLocation;
         this.excelOutputLocation = excelOutputLocation;
     }
@@ -35,8 +34,8 @@ public class X12837Parser implements Parser {
     }
 
     public void analyze() {
-        x12837Analyzer = new X12837Analyzer(parsedDataStringArray);
-        x12837Analyzer.analyze();
+        analyzer = new Analyzer(parsedDataStringArray);
+        analyzer.analyze();
 
     }
 

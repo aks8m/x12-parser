@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e7bdf3c-b152-455f-a6f6-8cf7d0586374" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Analyzer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Analyzer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/Parser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/ParserFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/ParserFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/X12Types.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Analyzer.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/837_Health Care Claim Professional X323-change-log.pdf" afterPath="$PROJECT_DIR$/input/837_Health Care Claim Professional X323-change-log.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/App.class" afterPath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/io/PDFTextReader.class" afterPath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/io/PDFTextReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.class" afterPath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.class" afterPath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.class" afterPath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Analyzer.java" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/Analyzer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/Parser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.java" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Entity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.java" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/X12837Analyzer.class" afterPath="$PROJECT_DIR$/target/classes/com/sillydevelopment/aks8m/x12parser/x12837/X12837Analyzer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/io/PDFTextReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/io/PDFTextReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/factory/ParserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/factory/ParserFactory.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,17 +25,89 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="X12837Analyzer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Analyzer.java">
+      <file leaf-file-name="Analyzer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/Analyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="568">
+              <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#483#492#0" expanded="true" />
-                <element signature="e#556#565#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#376#385#0" expanded="true" />
+                <element signature="e#451#460#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="method#initAnalysis#0;class#Analyzer#0" expanded="false" />
+                <element signature="method#findIgnoreIndexes#0;class#Analyzer#0" expanded="false" />
+                <element signature="method#removeIgnoreIndexes#0;class#Analyzer#0" expanded="false" />
+                <element signature="method#findLocationIndexes#0;class#Analyzer#0" expanded="false" />
+                <element signature="method#extractEntities#0;class#Analyzer#0" expanded="false" />
+                <element signature="e#2023#2031#0" expanded="true" />
+                <element signature="method#findEntityData#0;class#Analyzer#0" expanded="false" />
+                <element signature="method#buildEntity#0;class#Analyzer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#229#237#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <folding>
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/models/Entity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/models/Action.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/models/Location.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/models/CR.java" />
@@ -123,10 +176,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/factory/X12Types.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/io/PDFTextReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Analyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Analyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Action.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837CR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/Analyzer.java" />
       </list>
     </option>
   </component>
@@ -166,9 +225,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="x" value="-300" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -188,8 +248,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,6 +363,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="x12837" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x12parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x12-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sillydevelopment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aks8m" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x12parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x12837" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -676,37 +782,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="741" extended-state="0" />
+    <frame x="-300" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6671803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6663212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28967643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28967643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27643505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20021299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43451464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4341969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -732,7 +838,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -741,28 +847,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/factory/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/factory/ParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/factory/X12Factory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/factory/X12Types.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,11 +865,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,11 +900,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,32 +924,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,17 +938,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -893,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,26 +1014,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/factory/X12Factory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/writer/WriterFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/analyzer/AnalyzerFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Writer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/io/ExcelWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,14 +1055,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/io/PDFTextReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -1027,54 +1066,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/CR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/X12837Model.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#233#247#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/X12837Analyzer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="165">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#229#237#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/model/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sillydevelopment/aks8m/x12parser/x12837/Analyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#492#0" expanded="true" />
-            <element signature="e#556#565#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#376#385#0" expanded="true" />
+            <element signature="e#451#460#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="method#initAnalysis#0;class#Analyzer#0" expanded="false" />
+            <element signature="method#findIgnoreIndexes#0;class#Analyzer#0" expanded="false" />
+            <element signature="method#removeIgnoreIndexes#0;class#Analyzer#0" expanded="false" />
+            <element signature="method#findLocationIndexes#0;class#Analyzer#0" expanded="false" />
+            <element signature="method#extractEntities#0;class#Analyzer#0" expanded="false" />
+            <element signature="e#2023#2031#0" expanded="true" />
+            <element signature="method#findEntityData#0;class#Analyzer#0" expanded="false" />
+            <element signature="method#buildEntity#0;class#Analyzer#0" expanded="false" />
           </folding>
         </state>
       </provider>
