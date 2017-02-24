@@ -11,13 +11,11 @@ import java.io.IOException;
  * Application entry point
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args ) throws IOException
     {
-        Parser parser = ParserFactory.GetParser(X12Types.X12837,
-                                                args[0],
-                                                "/Users/aks8m/code/x12-parser/ouput");
+        Parser parser = ParserFactory.GetParser(X12Types.X12837, args[0], args[1]);
         parser.parse();
         parser.analyze();
         parser.write();

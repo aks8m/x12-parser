@@ -7,9 +7,19 @@ import java.util.List;
  */
 public class Action {
 
-    private List<String> rawTextData;
+    private String actionType;
+    private String actionDescription;
 
-    public Action(List<String> rawTextData) {
-        this.rawTextData = rawTextData;
+    public Action(String actionType, String actionDescription) {
+        this.actionType = actionType;
+        this.actionDescription = actionDescription;
+    }
+
+    public String getActionType() {
+        return actionType;
+    }
+
+    public String getActionDescription() {
+        return actionDescription;
     }
 }

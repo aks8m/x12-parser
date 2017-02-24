@@ -16,4 +16,16 @@ public class Entity {
         this.action = action;
         this.cr = cr;
     }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public Action getAction() {
+        return action;
+    }
+
+    public CR getCr() {
+        return cr;
+    }
 }

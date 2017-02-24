@@ -15,21 +15,14 @@ import java.util.Arrays;
  */
 public class PDFTextReader {
 
-    private String splitRegex = "\n";
-    private String x12filePath;
-
-    public PDFTextReader(String x12filePath){
-        this.x12filePath = x12filePath;
-    }
-
-    public ArrayList<String> readPDFTextData(){
+    public static ArrayList<String> ReadPDFTextData(String x12filePath, String splitRegex){
         PDFParser pdfParser;
         PDDocument pdDocument;
         PDFTextStripper pdfTextStripper;
         ArrayList<String> textData = null;
 
         try {
-            pdfParser = new PDFParser(new RandomAccessFile(new File(this.x12filePath), "r"));
+            pdfParser = new PDFParser(new RandomAccessFile(new File(x12filePath), "r"));
             pdfParser.parse();
 
             pdDocument = new PDDocument(pdfParser.getDocument());

@@ -1,7 +1,10 @@
 package com.sillydevelopment.aks8m.x12parser.x12837;
 
+import com.sillydevelopment.aks8m.x12parser.io.ExcelWriter;
 import com.sillydevelopment.aks8m.x12parser.io.PDFTextReader;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -29,18 +32,20 @@ public class Parser implements com.sillydevelopment.aks8m.x12parser.factory.Pars
     }
 
     public void parse(){
-        pdfTextReader = new PDFTextReader(x12SourcePDFLocation);
-        parsedDataStringArray = pdfTextReader.readPDFTextData();
+        parsedDataStringArray = PDFTextReader.ReadPDFTextData(x12SourcePDFLocation, "\n");
     }
 
     public void analyze() {
         analyzer = new Analyzer(parsedDataStringArray);
         analyzer.analyze();
-
     }
 
     public void write() {
-
+        try {
+            ExcelWriter.WriteToExcel(analyzer.getModel(), excelOutputLocation);
+        }catch (IOException ioE){
+            ioE.printStackTrace();
+        }
     }
 
 }

@@ -1,15 +1,23 @@
 package com.sillydevelopment.aks8m.x12parser.x12837.model;
 
-import java.util.List;
-
 /**
  * Created by aks8m on 2/20/17.
  */
 public class CR {
 
-    private List<String> rawTextData;
+    private String crID;
+    private String crDescription;
 
-    public CR(List<String> rawTextData) {
-        this.rawTextData = rawTextData;
+    public CR(String crID, String crDescription) {
+        this.crID = crID;
+        this.crDescription = crDescription;
+    }
+
+    public String getCrID() {
+        return crID;
+    }
+
+    public String getCrDescription() {
+        return crDescription;
     }
 }
